@@ -1,0 +1,38 @@
+# Credenciais e segredos — NUNCA commitar
+.env
+.env.*
+*.pem
+*.key
+*.crt
+secrets.json
+credentials.json
+service-account*.json
+
+# Tokens de API
+n8n-api-key.txt
+openai-key.txt
+evolution-api-key.txt
+
+# IDs de planilha (caso aparecam em config local)
+google-sheet-id.txt
+
+# Sistema
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Editores
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Logs
+*.log
+logs/
+
+# Temporarios
+*.tmp
+*.bak
+~$*
